@@ -1,0 +1,58 @@
+.Login {
+    background-color: white;
+    width : 350px;
+    height : 388px;
+    position:absolute;
+    left:50%;
+    top:40%;
+    margin-top:-194px;
+    margin-left:-175px;
+    border : 1px solid #dbdbdb;
+    text-align: center;
+    .logo_img{
+        margin-top:24px;
+        margin-bottom: 24px;
+    }
+    .input_wrap{
+        width:300px;
+        margin:10px auto;
+        .textId{
+            margin-top: 24px;
+        }
+        .password{
+            padding-top:10px;
+        }
+        input {
+            width:80%;
+            height: 25px;
+            background-color: rgb(248, 248, 248);
+            font-size: 13px;
+            margin: 0 10px 5px 10px;
+            padding:7px 12px;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+        }
+        
+    }
+    button{
+        width:262px;
+        height: 35px;
+        color:white;
+        font-size: 15px;
+        font-family: sans-serif;
+        background-color: rgb(155, 208, 252);
+        border-radius: 5px;
+        margin : 0 0 50px 0;
+        border:none;
+        letter-spacing: 1px;
+    }
+    .text1{
+        font-size: 14px;
+        margin-top:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+}
+
+
