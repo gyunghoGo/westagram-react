@@ -1,5 +1,5 @@
 .Login {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width : 350px;
     height : 388px;
     position:absolute;
@@ -10,21 +10,22 @@
     border : 1px solid #dbdbdb;
     text-align: center;
     .logo_img{
-        margin-top:24px;
-        margin-bottom: 24px;
+        margin-top:26px;
+        margin-bottom: 22px;
     }
     .input_wrap{
         width:300px;
         margin:10px auto;
+        margin-bottom:10px;
         .textId{
-            margin-top: 24px;
+            margin-top: 20px;
         }
         .password{
             padding-top:10px;
         }
         input {
-            width:80%;
-            height: 25px;
+            width:260px;
+            height: 35px;
             background-color: rgb(248, 248, 248);
             font-size: 13px;
             margin: 0 10px 5px 10px;
@@ -35,23 +36,26 @@
         
     }
     button{
-        width:262px;
-        height: 35px;
-        color:white;
-        font-size: 15px;
+        width:260px;
+        height: 33px;
+        color:rgb(255, 255, 255);
+        font-size: 14px;
         font-family: sans-serif;
-        background-color: rgb(155, 208, 252);
+        background-color: rgb(176, 220, 255);
         border-radius: 5px;
-        margin : 0 0 50px 0;
+        margin-bottom:50px;
         border:none;
         letter-spacing: 1px;
     }
-    .text1{
-        font-size: 14px;
-        margin-top:30px;
+    .addText{
+        font-size:14px;
+        margin-top:22px;
+        color:rgb(10, 36, 109);
         font-family: Arial, Helvetica, sans-serif;
-        
+    
     }
+    
+    
 
 }
 

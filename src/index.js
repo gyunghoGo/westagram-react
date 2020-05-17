@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Login from './pages/Login/Login';
-//import Main from './pages/main/main';
+// import Login from './pages/Login/Login';
+import Main from './pages/Main/Main';
 
 ReactDOM.render(    //render -> 함수를 실행해 주겠다는 것
   <React.StrictMode>
-    {/* <App /> */}
-    <Login />
-    {/* <Main />   */}
+    {/* <Login /> */}
+    <Main />  
   </React.StrictMode>,
   document.getElementById('root')
 );

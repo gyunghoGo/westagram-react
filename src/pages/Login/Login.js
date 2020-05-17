@@ -12,7 +12,7 @@ class Login extends React.Component{
                     <input type="password" className="password" placeholder="비밀번호"/>
                 </div>
                 <button>로그인</button>
-                <div class = "text1">비밀번호를 잊으셨나요?</div>
+                <div className = "addText">비밀번호를 잊으셨나요?</div>
             </div>
         );
     }
