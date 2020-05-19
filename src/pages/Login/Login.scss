@@ -35,7 +35,7 @@
         }
         
     }
-    button{
+    .buttonColor{
         width:260px;
         height: 33px;
         color:rgb(255, 255, 255);
@@ -47,6 +47,20 @@
         border:none;
         letter-spacing: 1px;
     }
+
+    .buttonChangeColor{
+        width:260px;
+        height: 33px;
+        color:rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: sans-serif;
+        background-color: rgb(86, 179, 255);
+        border-radius: 5px;
+        margin-bottom:50px;
+        border:none;
+        letter-spacing: 1px;
+    }
+
     .addText{
         font-size:14px;
         margin-top:22px;
