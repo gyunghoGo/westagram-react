@@ -1,0 +1,508 @@
+/* nav 부분 */
+.Main{
+    nav{
+        width: 100%;
+        height: 54px;
+        border-bottom:1px solid #dbdbdb;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .nav{
+            width:999px;
+            height: 54px;
+            max-width: 900px;
+            display:flex;
+            margin:0 auto;
+
+            .nav-left-logo{
+                width: 333px;
+                height: 100%;
+                display:flex;
+                
+                .nav-left-logo-left{
+                    
+                    height: 25px;
+                    margin-top:17px;
+
+                    img{
+                        width: 29px;
+                        border-right:2px solid black;
+                        padding-right: 6px;
+                    }
+                }
+                .nav-left-logo-right img{
+                    width:38%;
+                    margin-top:18px;
+                    margin-left:13px;
+                }
+            }
+            .nav-mid{
+                width:333px;
+                height: 100%;
+                position: relative;
+
+                .nav-mid-input{
+                    width:220px;
+                    height: 28px;
+                    border-radius: 3px;
+                    border: 1px solid #dbdbdb;
+                    margin-top:14px;
+                    margin-left:45px;
+                    font-size: 14px;
+                    background-color: rgb(245, 245, 245);
+                    text-align: center;
+                }
+            }
+            .nav-right-logo{
+                width:333px;
+                height:100%;
+                display:flex;
+                justify-content: flex-end;
+
+                img{
+                    width: 27px;
+                    margin-top:13px;
+                    margin-left:30px;
+                }
+            }
+        }
+    }
+    /* main Feeds 부분*/
+    
+    .container{
+        margin-top:50px;
+
+        .feeds{
+            width:930px;
+            /* height: 1900px; */
+            margin: 0 auto;
+            display:flex;
+
+            .feeds-left{
+                width:600px;
+                /* height: 1024px; */
+                border: 1px solid #dbdbdb;
+                margin-top:50px;
+                margin-right:20px;
+                margin-bottom: 100px;
+                background-color: white;
+
+                .feeds-top{
+                    height: 45px;
+                    display:flex;
+                    justify-content: space-between;
+
+                    .feeds-top-left{
+                        margin-top: 10px;
+                        margin-left: 8px;
+                        display:flex;
+
+                        img{
+                            width:35px;
+                            height: 35px;
+                            border-radius: 50%;
+                            /* border: 2px solid rgb(255, 98, 137); */
+                        }
+
+                        div{
+                            margin-top: 10px;
+                            margin-left: 11px;
+                            font-size: 13px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+                    .feeds-top-right-dots img{
+                        width: 27px;
+                        margin-right: 17px;
+                        margin-top: 13px;
+                    }
+                }
+
+                .feeds-left-first-img img{
+                    width:100%;
+                    margin-top:10px;
+                }
+
+                .feeds-left-bottom-icon{
+                    display:flex;
+                    justify-content: space-between;
+
+                    .feeds-left-bottom-L-icon img{
+                        width:27px;
+                        margin-left:10px;
+                        margin-top:3px;
+                    }
+
+                    .feeds-left-bottom-L-icon img:first-child{
+                        margin-left:13px;
+                        width:32px;
+                    }
+
+                    .feeds-left-bottom-R-icon img{
+                        width:26px;
+                        margin-right:10px;
+                        margin-top:4px;
+                    }
+                }
+
+                .like-img{
+                    display:flex;
+                    margin-top: 2px;
+
+                    img{
+                        width:26px;
+                        border-radius: 50%;
+                        border:2px solid rgb(250, 95, 48);
+                        font-size: 14px;
+                        margin-top: 2px;
+                        margin-left: 16px;
+                    }
+
+                    p{
+                        font-size: 14px;
+                        margin-top: 6px;
+                        margin-left: 5px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        /* font-family: 'Roboto', sans-serif; */
+                    }
+                }
+                .text-container{
+
+                    .commentAll{
+                        color: #a8a8a8;
+                    }
+
+                    div{
+                        font-size: 14px;
+                        margin-left: 14px;
+                        margin-top: 5px;
+                        font-family: Arial, Helvetica, sans-serif;
+    
+                        strong{
+                            padding-right: 10px;
+                        }
+                    }
+
+                }
+                
+
+                .bb {
+                    font-size: 14px;
+                    margin-left: 14px;
+                    margin-top: 5px;
+                    color:#a8a8a8;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .comment_button{
+                    display:flex;
+                    border-top: 1px solid #dbdbdb;
+                    height:38px;
+
+                    .comment_value{
+                        width:560px;
+                        height: 30px;
+                        border:0;
+                        padding:10px;
+                        margin-top: 5px;
+                    }
+
+                    .comment_upload_button{
+                        width:35px;
+                        font-size: 14px;
+                        border:none;
+                        color:#a1d0f8;
+                        margin-right:10px;
+                    }                
+                }
+            }
+
+            .feeds-right{
+                margin-left:15px;
+                position:fixed;
+                margin-left: 642px;
+                /* right: 260px; */
+                /* top: 46px; */
+                /*  fixed 하면 위치기 고정되는데 그 설정값을 모르곘다. 처음 내가 원하는 위치에서 딱 멈추면 좋으련만...*/
+
+                .feeds-right-top{
+                    width:300px;
+                    box-sizing: border-box;
+                    /* height: 55px; */
+                    /* border:1px solid green; */
+                    margin-top:50px;
+                    display:flex;
+
+                    img{
+                        width:55px;
+                        border-radius: 50%;
+                        margin-left: 8px;
+                        border:2px solid rgb(250, 95, 48);
+                    }
+
+                    div{
+                        margin-left: 13px;
+                        margin-top: 10px;
+                        font-size:5px;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        .instaName{
+                            color:#adadad;
+                            margin-top:5px;
+                        }
+                    }                    
+                }
+
+                .feeds-right-mid{
+                    width:300px;    
+                    /* height:253px; */
+                    border:1px solid #dbdbdb;
+                    margin-top:20px;
+
+                    .feeds-right-mid-topText{
+                        display:flex;
+                        justify-content: space-between;
+
+                        .story{
+                            color:#a8a7a7;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 15px;
+                            margin-left: 15px;
+                            margin-top: 13px;
+                        }
+
+                        .all{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 15px;
+                            margin-right: 14px;
+                            margin-top: 14px;
+                        }
+                    }
+
+                    .feeds-right-mid-imgs{
+                        overflow : scroll;
+                        height:200px;
+
+                        .feeds-right-mid-first-img{
+                            display:flex;
+                            margin-top:12px;
+                            margin-left:15px;
+
+                            img{
+                                width:42px;
+                                border-radius: 50%;
+                                border:2px solid rgb(250, 95, 48);
+                            }
+
+                            .first-img-text{
+                                margin-left: 10px;
+                                margin-top:3px;
+                                font-size: 14px;
+                                font-family: Arial, Helvetica, sans-serif;
+
+                                .first-time{
+                                    margin-top:3px;
+                                    color:#a8a7a7;
+                                }
+                            }
+                        }
+
+                        .feeds-right-mid-second-img{
+                            display:flex;
+                            margin-left: 15px;
+                            margin-top: 11px;   
+                            
+                            img{
+                                width:42px;
+                                border-radius: 50%;
+                                border:2px solid rgb(250, 95, 48);
+                            }
+
+                            .second-img-text{
+                                font-size: 14px;
+                                margin-top: 5px;
+                                margin-left: 10px;
+                                font-family: Arial, Helvetica, sans-serif;
+
+                                .second-time{
+                                    color:#a8a7a7;
+                                    margin-top:2px;
+                                }
+                            }
+                        }
+
+                        .feeds-right-mid-third-img{
+                            display:flex;
+                            margin-left: 15px;
+                            margin-top: 11px; 
+
+                            img{
+                                width:42px;
+                                border-radius: 50%;
+                                border:2px solid rgb(250, 95, 48);
+                            }
+
+                            .third-img-text{
+                                font-size: 14px;
+                                margin-top: 5px;
+                                margin-left: 10px;
+                                font-family: Arial, Helvetica, sans-serif;
+
+                                .third-time{
+                                    color:#a8a7a7;
+                                    margin-top:2px;
+                                }
+                            }
+                        }
+
+                        .feeds-right-mid-fourth-img{
+                            display:flex;
+                            margin-left: 15px;
+                            margin-top: 11px; 
+
+                            img{
+                                width:42px;
+                                border-radius: 50%;
+                                border:2px solid rgb(250, 95, 48);
+                            }
+
+                            .fourth-img-text{
+                                font-size: 14px;
+                                margin-top: 5px;
+                                margin-left: 10px;
+                                font-family: Arial, Helvetica, sans-serif;
+
+                                .fourth-time{
+                                    color:#a8a7a7;
+                                    margin-top:2px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .feeds-right-bom{
+
+                    .feeds-right-bom-topText{
+                        display:flex;
+                        justify-content: space-between;
+
+                        .recommend{
+                            color : #a8a7a7;
+                            font-size:15px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            margin-left: 15px;
+                            margin-top: 14px;
+                        }
+
+                        .all{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 15px;
+                            margin-right: 14px;
+                            margin-top: 14px;
+                        } 
+                    }
+
+                    .feeds-right-bom-first-img{
+                        display:flex;
+                        justify-content: space-between;
+
+                        img{
+                            width:42px;
+                            border-radius: 50%;
+                            margin-left: 17px;
+                            margin-top: 12px;
+                        }
+
+                        .feeds-right-bom-first-img-text{
+                            margin-top: 15px;
+                            margin-right: 24px;
+                            font-size: 14px;
+                            font-family: Arial, Helvetica, sans-serif;
+
+                            .text{
+                                color:#a8a7a7;
+                                margin-top:2px;
+                            }
+                        }
+
+                        .follow{
+                            margin-top: 24px;
+                            margin-right: 13px;
+                            font-size: 13px;
+                            color: #289aff;
+                        }
+                    }
+
+                    .feeds-right-bom-second-img{
+                        display:flex;
+                        justify-content: space-between;
+
+                        img{
+                            width:42px;
+                            border-radius: 50%;
+                            margin-left: 17px;
+                            margin-top: 12px;
+                        }
+
+                        .feeds-right-bom-second-img-text{
+                            margin-top: 15px;
+                            margin-right: 24px;
+                            font-size: 14px;
+                            font-family: Arial, Helvetica, sans-serif;
+
+                            .text{
+                                color:#a8a7a7;
+                                margin-top:2px;
+                            }
+                        }
+
+                        .follow{
+                            margin-top: 24px;
+                            margin-right: 13px;
+                            font-size: 13px;
+                            color: #289aff;
+                        }
+                    }
+
+                    .feeds-right-bom-third-img{
+                        display:flex;
+                        justify-content: space-between;
+
+                        img{
+                            width:42px;
+                            border-radius: 50%;
+                            margin-left: 17px;
+                            margin-top: 12px;
+                        }
+
+                        .feeds-right-bom-third-img-text{
+                            margin-top: 15px;
+                            margin-right: 24px;
+                            font-size: 14px;
+                            font-family: Arial, Helvetica, sans-serif;
+
+                            .text{
+                                color:#a8a7a7;
+                                margin-top:2px;
+                            }
+                        }
+
+                        .follow{
+                            margin-top: 24px;
+                            margin-right: 13px;
+                            font-size: 13px;
+                            color: #289aff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

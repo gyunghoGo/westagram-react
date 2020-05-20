@@ -1,0 +1,112 @@
+.Login {
+    background-color: rgb(255, 255, 255);
+    width : 350px;
+    height : 388px;
+    position:absolute;
+    left:50%;
+    top:40%;
+    margin-top:-194px;
+    margin-left:-175px;
+    border : 1px solid #dbdbdb;
+    text-align: center;
+    .logo_img{
+        margin-top:26px;
+        margin-bottom: 22px;
+    }
+    .input_wrap{
+        width:300px;
+        margin:10px auto;
+        margin-bottom:10px;
+        .textId{
+            margin-top: 20px;
+        }
+        .password{
+            padding-top:10px;
+        }
+        input {
+            width:260px;
+            height: 35px;
+            background-color: rgb(248, 248, 248);
+            font-size: 13px;
+            margin: 0 10px 5px 10px;
+            padding:7px 12px;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+        }
+        
+    }
+    
+    .buttonColor{
+        width:260px;
+        height: 33px;
+        color:rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: sans-serif;
+        background-color: rgb(176, 220, 255);
+        border-radius: 5px;
+        margin-bottom:25px;
+        border:none;
+        letter-spacing: 1px;
+
+        Link{
+            text-decoration: none;
+        }
+    }
+
+    .mid{
+        display:flex;
+        margin-left:53px;
+        .or{
+            font-size: 14px;
+            color: rgb(160, 160, 160);
+        }
+    
+        .mid-line-01{
+            width:100px;
+            height: 1px;
+            background-color: rgb(206, 203, 203);
+            margin-top:7px;
+            margin-right:10px;
+        }
+        .mid-line-02{
+            width:100px;
+            height: 1px;
+            background-color: rgb(206, 203, 203);
+            margin-top:7px;
+            margin-left:10px;
+        }
+    }
+
+    .buttonChangeColor{
+        width:260px;
+        height: 33px;
+        color:rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: sans-serif;
+        background-color: rgb(86, 179, 255);
+        border-radius: 5px;
+        margin-bottom:50px;
+        border:none;
+        letter-spacing: 1px;
+    }
+
+    .addText{
+        font-size:14px;
+        margin-top:30px;
+        color:rgb(21, 54, 146);
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+
+}
+.secondBlock{
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    border:1px solid #dbdbdb;
+    
+}
+
+
