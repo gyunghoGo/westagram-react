@@ -14,6 +14,36 @@ import Son from '../../images/son.jpg';
 import Heart from '../../images/heart.png';
 
 class Main extends React.Component{
+    constructor(){
+        super();
+        this.state = {
+            Comment :" "
+        };
+    }
+
+    typeClick=(e)=>{
+
+    }
+
+    inputValue = (event) => {
+        this.setState({
+            Comment:event.target.value        
+        })
+        // console.log(this.state);
+    }
+
+    handleOnChange = e =>{
+        this.setState({
+            Comment:this.inputValue
+        })
+    }
+
+    handleKeyPress = e  => {
+        if (e.key === 'Enter'){
+            alert("엔터키 먹었다!!!!");
+        };
+    }
+
     render(){
         return(
             <div className="Main">
@@ -38,9 +68,9 @@ class Main extends React.Component{
                     </div>
                 </nav>
                 <div className = "container">
-                    <div className ="feeds">
-                        <div className ="feeds-left">
-                                <div className="feeds-top">
+                    <div className = "feeds">
+                        <div className = "feeds-left">
+                                <div className = "feeds-top">
                                         <div className ="feeds-top-left">              
                                             <img alt ="jongsin02" src={JongsinImg}/>
                                             <div><strong>yoonjongshin</strong></div>
@@ -49,10 +79,10 @@ class Main extends React.Component{
                                             <img alt=" " src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png"/>
                                         </div>
                                 </div>
-                                <div className="feeds-left-first-img">
+                                <div className = "feeds-left-first-img">
                                     <img alt="jongsin01" src={Jongsin01}/>
                                 </div>
-                                <div className="feeds-left-bottom-icon">
+                                <div className = "feeds-left-bottom-icon">
                                         <div className ="feeds-left-bottom-L-icon">
                                             <img alt ="heart" src={Heart}/>
                                             <img alt=" " src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png"/>
@@ -66,7 +96,7 @@ class Main extends React.Component{
                                         <div><img alt ="goimg" src = {Goimg}/></div>
                                         <p><strong>__goguard</strong>님 <strong>외 3651명</strong>이 좋아합니다.</p>
                                 </div>
-                                <div className="text-container">
+                                <div className = "text-container">
                                         <div><strong>yoonjongshin</strong>지난 2월.#1 #이방인프로젝트... 더 보기</div>
                                         <div className="commentAll">댓글 329개 모두 보기</div>
                                         <div><strong>kgg1025</strong>코로나19의 최전선에서 건강하길 바랍니다.</div>
@@ -74,10 +104,10 @@ class Main extends React.Component{
                                 </div>
                                 <div className = "bb">42분 전</div>
                                 <div className = "comment_button">
-                                        <div className="comment_event">
-                                        <input type="text" className = "comment_value"  placeholder="댓글 달기..."/>
+                                        <div className = "comment_event">
+                                        <input  onKeyPress={this.handleKeyPress} className = "comment_value" name = "Comment"  type="text" placeholder="댓글 달기..."/>
                                         </div>  
-                                        <button className = "comment_upload_button">게시</button>
+                                        <button onClick={this.typeClick} className = "comment_upload_button">게시</button>
                                 </div>
                         </div>
 
