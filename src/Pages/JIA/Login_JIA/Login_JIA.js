@@ -1,10 +1,10 @@
 import React from "react";
-import "./Login.scss";
-import logo from "../../img/logo_text.png";
-import phone from "../../img/phone.png";
-import facebook from "../../img/facebook.png";
-import ios from "../../img/ios.png";
-import googleplay from "../../img/googleplay.png";
+import "./Login_JIA.scss";
+import logo from "../../../Images/Images_JIA/logo_text.png";
+import phone from "../../../Images/Images_JIA/phone.png";
+import facebook from "../../../Images/Images_JIA/facebook.png";
+import ios from "../../../Images/Images_JIA/ios.png";
+import googleplay from "../../../Images/Images_JIA/googleplay.png";
 
 class Login_JIA extends React.Component {
   state = {

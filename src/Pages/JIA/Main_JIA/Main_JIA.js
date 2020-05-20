@@ -1,8 +1,8 @@
 import React from "react";
-import "./Main.scss";
-import logo from "../../img/logo_text.png";
-import follower from "../../img/posted_photo.png";
-import profile from "../../img/my_profile_photo.jpg";
+import "./Main_JIA.scss";
+import logo from "../../../Images/Images_JIA/logo_text.png";
+import follower from "../../../Images/Images_JIA/posted_photo.png";
+import profile from "../../../Images/Images_JIA/my_profile_photo.jpg";
 
 class Main_JIA extends React.Component {
   state = {
