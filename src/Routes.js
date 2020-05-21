@@ -12,6 +12,7 @@ import Main_GH from './Pages/GH/Main_GH/Main_GH';
 import SignUp_GH from './Pages/GH/SignUp_GH/SignUp_GH';
 import Login_NW from './Pages/NW/Login_NW/Login_NW';
 import Main_NW from './Pages/NW/Main_NW/Main_NW';
+import SignUp_NW from './Pages/NW/SignUp_NW/SignUp_NW';
 
 
 class Routes extends React.Component {
@@ -27,6 +28,7 @@ class Routes extends React.Component {
           <Route exact path="/signup_gh" component={SignUp_GH} />
           <Route exact path="/nw" component={Login_NW} />
           <Route exact path="/main_nw" component={Main_NW} />
+          <Route exact path="/signup_nw" component={SignUp_NW} />
         </Switch>
       </Router>
     )

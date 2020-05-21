@@ -1,39 +1,39 @@
 import React from "react";
-import "./SignUp_JIA.scss";
-import logo from "../../../Images/Images_JIA/logo_text.png";
+import "./SignUp_NW.scss";
+import logo from "../../../Images/Images_GH/logo_text.png";
 
-class SignUp_JIA extends React.Component{
-    constructor() {
-        super();
-        this.state ={
-        SignUPNum : "",
-        SignUpName : "",
-        SignUpNick : "",
-        SignUpPw : "",
-        btnColor : true
-    }
-}
+class SignUp_NW extends React.Component{
+//     constructor() {
+//         super();
+//     this.state ={
+//         SignUPNum : "",
+//         SignUpName : "",
+//         SignUpNick : "",
+//         SignUpPw : "",
+//         btnColor : true
+//     }
+// }
 
-    inputValueId = (event) => {
-        this.setState({
-            loginId:event.target.value
-        })
-    }
+//     inputValueId = (event) => {
+//         this.setState({
+//             loginId:event.target.value
+//         })
+//     }
 
-    inputValuePw = (event) => {
-        this.setState({
-            loginPw:event.target.value
-        })
-    }
+//     inputValuePw = (event) => {
+//         this.setState({
+//             loginPw:event.target.value
+//         })
+//     }
 
 
-    buttonColorChange = () => {
-        if (this.state.loginId.includes('@') && this.state.loginPw.length >= 5 ){
-            this.setState({btnColor : false});
-        }else {
-            this.setState({ btnColor : true});
-        }
-    }
+//     buttonColorChange = () => {
+//         if (this.state.loginId.includes('@') && this.state.loginPw.length >= 5 ){
+//             this.setState({btnColor : false});
+//         }else {
+//             this.setState({ btnColor : true});
+//         }
+//     }
        
     render(){
         return(
@@ -52,7 +52,7 @@ class SignUp_JIA extends React.Component{
                     <input type="text" className="input-text-nick" placeholder="사용자 이름"/>
                     <input type="password" className="input-text-pw" placeholder="비밀번호"/>
                 </div>
-                <button onClick={this.signUpHandler}className ='btn-signup'>가입</button>
+                <button className ='btn-signup'>가입</button>
                 {/* <button className ={`buttonColor ${this.state.btnColor ? ' ' : 'buttonChangeColor'}`}>로그인</button> */}
 
                 <div className = "addText">가입하면 instagram의 <strong>약관, 데이터 정책</strong> 및 <strong>쿠키 정책</strong>에 동의하게 됩니다. </div>
@@ -60,4 +60,4 @@ class SignUp_JIA extends React.Component{
         )
     }
 }
-export default SignUp_JIA;
+export default SignUp_NW;
