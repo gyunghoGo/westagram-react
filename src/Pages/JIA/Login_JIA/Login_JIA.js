@@ -61,7 +61,7 @@ class Login_JIA extends React.Component {
 
   render() {
     return (
-      <div className="Login">
+      <div className="Login-jia">
         <main>
           <article className="bothside">
             <div className="login-page">
