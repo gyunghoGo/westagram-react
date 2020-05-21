@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login_GH.scss';
-import Logo from '../../images/logo_text.png';
+import Logo from '../../../Images/Images_GH/logo_text.png';
 
 
 class Login_GH extends React.Component{

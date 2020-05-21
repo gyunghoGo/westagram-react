@@ -1,17 +1,17 @@
 import React from 'react';
 import './Main_GH.scss';
-import Logo_text from '../../images/logo_text.png';
-import JongsinImg from '../../images/jongsinImg.png';
-import Jongsin01 from '../../images/jongsin01.jpg';
-import Goimg from '../../images/goimg.jpg';
-import Bears from '../../images/bears.jpg';
-import Travel from '../../images/여미.jpg';
-import Art from '../../images/art.jpg';
-import Imammin from '../../images/iammin.jpg';
-import Yuna from '../../images/yuna.jpg';
-import Moon from '../../images/moon.jpg';
-import Son from '../../images/son.jpg';
-import Heart from '../../images/heart.png';
+import Logo_text from '../../../Images/Images_GH/logo_text.png';
+import JongsinImg from '../../../Images/Images_GH/jongsinImg.png';
+import Jongsin01 from '../../../Images/Images_GH/jongsin01.jpg';
+import Goimg from '../../../Images/Images_GH/goimg.jpg';
+import Bears from '../../../Images/Images_GH/bears.jpg';
+import Travel from '../../../Images/Images_GH/여미.jpg';
+import Art from '../../../Images/Images_GH/art.jpg';
+import Imammin from '../../../Images/Images_GH/iammin.jpg';
+import Yuna from '../../../Images/Images_GH/yuna.jpg';
+import Moon from '../../../Images/Images_GH/moon.jpg';
+import Son from '../../../Images/Images_GH/son.jpg';
+import Heart from '../../../Images/Images_GH/heart.png';
 
 class Main_GH extends React.Component{
     constructor(){

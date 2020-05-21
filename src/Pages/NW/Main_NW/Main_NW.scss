@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .upside {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid gray;
+  }
+
+  .upside_left {
+    margin-left: 120px;
+  }
+
+  .upside_right {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+  }
+
+  .search {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .camera {
+      width: 50px;
+      height: 30px;
+      border-right: 1px solid black;
+      padding: 0px 20px 0px 0px;
+  }
+
+  .logo {
+    width: 103px;
+    height: 29px;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .explore {
+    width: 22px;
+    height: 22px;
+  }
+
+  .heart {
+    width: 22px;
+    height: 22px;
+  }
+
+  .mypage {
+    width: 22px;
+    height: 22px;
+  }
+
+  .main {
+    background-color: lightgray;    
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .leftside {
+    width: 600px;
+    margin-left: 180px;
+    border: 1px solid black;
+    
+  }
+
+  .leftside_0 {
+    height: 40px;
+  }
+
+  .leftside_1 {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .profile {
+    width: 42px;
+    height: 42px;
+    margin-left: 10px;
+  }
+
+  .dot3 {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .maserati {
+    width: 600px;
+    height: 620px;
+  }
+
+  .heart,
+  .word,
+  .share,
+  .bookmark {
+    width: 24px;
+    height: 24px;
+  }
+
+  .leftside_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+  }
+
+  .leftside_4 {
+    background-color: white;
+    height: 24px;
+    
+  }
+
+  .hwsb {
+    margin-left: 10px;
+  }
+
+  .bookmark {
+    margin-right: 10px;
+  }
+
+  .rightside_Total {
+    margin-right: 180px;
+  }
+
+  .rightside_0 {
+    width: 300px;
+    height: 40px;
+    border: 1px solid red;
+  }
