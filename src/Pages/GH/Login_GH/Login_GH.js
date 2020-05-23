@@ -39,7 +39,7 @@ class Login_GH extends React.Component{
     clickEvent = () => {
         // console.log(this.state.loginEmail)
         // console.log(this.state.loginPw)
-        fetch("", {
+        fetch("http://10.58.7.154:8000/accounts/signin", {
           method: "POST",
           headers: {
             'Content-type': 'application/json'

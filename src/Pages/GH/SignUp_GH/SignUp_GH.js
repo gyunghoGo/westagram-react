@@ -52,7 +52,7 @@ class SignUp_GH extends React.Component{
     }
 
     handleClickEvent=()=>{
-        fetch('http://10.58.4.172:8000/account/signup', {
+        fetch('http://10.58.7.154:8000/accounts/signin', {
             method:'POST',
             headers:{
                 'Content-Type':'application/json',
@@ -71,7 +71,7 @@ class SignUp_GH extends React.Component{
                 alert("따란~ 회원가입 성공하였습니다. *^^*")
                 this.props.history.push('/gh')
             }else {
-                alert("회원가입 다시해라")
+                alert("입력하신 정보가 맞지 않습니다. 다시 진행해 주세요.")
             }
          }
         )
